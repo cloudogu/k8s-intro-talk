@@ -1,0 +1,54 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/michiel/plantuml-kubernetes-sprites/master/resource/k8s-sprites-unlabeled-25pct.iuml
+!define CLOUDOGU_BLUE #23a3dd
+
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.1.0
+'!includeurl ICONURL/font-awesome-5/box.puml
+!includeurl ICONURL/font-awesome-5/docker.puml
+
+
+skinparam arrow {
+    Color CLOUDOGU_BLUE
+    FontColor WHITE
+}
+
+skinparam rectangle {
+    BackgroundColor CLOUDOGU_BLUE
+    BorderColor #16688d
+    FontColor WHITE
+}
+
+together {
+    rectangle "<$deploy>\nDeployment" as deploy
+}
+
+rectangle "<$pod>\nPod 1" as pod_1
+rectangle "<$pod>\nPod n" as pod_n
+
+deploy -> pod_1
+deploy -> pod_n
+
+together {
+    rectangle "<$docker>\nContainer 1" as container_1_1
+    rectangle "<$docker>\nContainer n" as container_1_n
+    
+    rectangle "<$docker>\nContainer 1" as container_n_1
+    rectangle "<$docker>\nContainer n" as container_n_n
+}
+
+  
+pod_1 -[hidden]-> pod_n
+
+container_1_1 -[hidden]-> container_1_n
+
+container_1_n -[hidden]-> container_n_1
+
+container_n_1 -[hidden]-> container_n_n
+
+pod_1 -> container_1_1
+pod_1 -> container_1_n
+
+pod_n -> container_n_1
+pod_n -> container_n_n
+
+@enduml
