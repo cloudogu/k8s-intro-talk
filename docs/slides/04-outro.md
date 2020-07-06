@@ -8,8 +8,8 @@
 * **pod** - smallest resource in k8s (comprising containers)
 * **deployment**
   * scaling out containers
-  * rolling updates
   * self-healing
+  * rolling updates
 * **service**
   * cluster access
   * load balancing
@@ -29,7 +29,7 @@ Cloudogu GmbH
 
 ###  💬 Questions or feedback?
 
-🌐 https://forum.cloudogu.com/topic/42
+🌐 https://forum.cloudogu.com/topic/65
 
 <a href='https://twitter.com/cloudogu' class="social" target="_blank">
     <i class='fab fa-twitter'></i>
