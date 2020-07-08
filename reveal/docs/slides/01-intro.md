@@ -16,7 +16,7 @@ Johannes Schnatterer
 
 
 <div class="title-version">
-Version: 202007081420-e3d57d2
+Version: 202007081426-5c9281d
 </div>
 
 <h3><a href="pdf/Plunging-Into-Kubernetes-An-Introduction.pdf">
