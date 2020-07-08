@@ -8,13 +8,7 @@
 
 
 
-<!-- .slide: style="color: #00ff00;"-->
-<!-- .slide: data-background-image="images/raise-hands.jpg"-->
-#### Operations on "plain"<br/>Docker host in production<br/> — what is missing?
-
-Note: https://unsplash.com/photos/Qs_Zkak27Jk
-
-
+#### Operations on "plain" Docker host in production — what is missing?
 
 <ul>
 <li class="fragment"><i class="fas fa-compress-alt"></i> For some use cases: Nothing!</li>
