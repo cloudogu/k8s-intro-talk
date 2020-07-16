@@ -1,27 +1,20 @@
 <!-- .slide: class="title"  -->
 <!-- .slide: data-background-image="images/title.svg"  -->
-
-<img data-src="images/k8s_logo.svg" class="centered" width=15%/>
-
-
-<h2>
+<img data-src="images/k8s_logo.svg" class="centered" width="10%;" />
+<h1>
     <span class="title-accent">//</span> 
     Kubernetes Einstieg: <br/>Mit der Tür ins Haus
-    
-</h2>
-<br/>
-Johannes Schnatterer
+</h1>
 
-*Cloudogu GmbH*
-
+<font size="5">Johannes Schnatterer<br>Cloudogu GmbH</font>
 
 <div class="title-version">
 <!--VERSION-->
 </div>
 
-<h3><a href="pdf/Plunging-Into-Kubernetes-An-Introduction.pdf">
+<h5><a href="pdf/Plunging-Into-Kubernetes-An-Introduction.pdf">
    <i class="far fa-file-pdf"></i>
-</a></h3>
+</a></h5>
 
 
 
