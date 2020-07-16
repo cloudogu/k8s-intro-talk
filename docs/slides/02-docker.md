@@ -4,7 +4,7 @@
 <img data-src="images/container-container.png" height=250 />
 <img data-src="images/containers-vms-together.png" height=250 />
 
-<font size="1">🌐 https://web.archive.org/web/20180701005535/https://www.docker.com/what-container</font>
+<font size="2">🌐 https://web.archive.org/web/20180701005535/https://www.docker.com/what-container</font>
 
 
 
