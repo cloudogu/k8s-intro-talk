@@ -3,13 +3,13 @@
 <img data-src="images/k8s_logo.svg" class="centered" width="10%;" />
 <h1>
     <span class="title-accent">//</span> 
-    Kubernetes Einstieg: <br/>Mit der Tür ins Haus
+    Plunging into Kubernetes<br/> — an introduction
 </h1>
 
 <font size="5">Johannes Schnatterer<br>Cloudogu GmbH</font>
 
 <div class="title-version">
-Version: 202007161843-176895e
+Version: 202007171443-97235c5
 </div>
 
 <h5><a href="pdf/Plunging-Into-Kubernetes-An-Introduction.pdf">
